@@ -102,12 +102,12 @@ Frontend will run on: `http://localhost:5173`
 After running the setup script, you can login with:
 
 ### Admin User
-- **Email**: `sujaljain984@gmail.com`
-- **Password**: `Sujal@7383`
+- **Email**: `rima@gmail.com`
+- **Password**: `admin1234`
 - **Access**: Full admin panel access
 
 ### Customer User
-- **Email**: `sujal.jain@aavatto.com`
+- **Email**: `sumit@gmail`
 - **Password**: `User@1234`
 - **Access**: Customer portal for bookings and inquiries
 

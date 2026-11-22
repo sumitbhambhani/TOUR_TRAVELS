@@ -26,11 +26,11 @@ class Command(BaseCommand):
         User.objects.filter(role='ADMIN').delete()
         
         admin, _ = User.objects.get_or_create(
-            email='sujaljain984@gmail.com',
+            email='admin@gmail.com',
             defaults={
-                'username': 'sujaljain',
-                'first_name': 'Sujal',
-                'last_name': 'Jain',
+                'username': 'rimatours',
+                'first_name': 'admin',
+                'last_name': 'tours',
                 'is_staff': True,
                 'is_superuser': True,
                 'role': 'ADMIN'
@@ -477,6 +477,6 @@ class Command(BaseCommand):
         self.stdout.write(f'Inquiries: {len(inquiries)}')
         self.stdout.write(self.style.SUCCESS('='*60))
         self.stdout.write(self.style.SUCCESS('\nLogin Credentials:'))
-        self.stdout.write(f'Admin: sujaljain984@gmail.com / admin123')
+        self.stdout.write(f'Admin: rima@gmail.com / admin123')
         self.stdout.write(f'Customer: john.doe@example.com / password123')
         self.stdout.write(self.style.SUCCESS('='*60))
